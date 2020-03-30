@@ -13,10 +13,13 @@ public class Main {
             case 1:
                 System.out.println("Skriv navnet på instruktør");
                 mp.findMovieInfosDic(scan.next());
+                break;
 
             case 2:
                 System.out.println("Skriv navnet på land");
                 mp.findMovieInfosCountry(scan.next());
+                break;
+
         }
     }
 }
